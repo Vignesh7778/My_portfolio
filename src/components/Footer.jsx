@@ -9,10 +9,10 @@ const Footer = () => {
           <div className="text-[9px] text-gray-700 font-mono mt-2 uppercase tracking-widest">JAVA • CYBER • FULL-STACK</div>
         </div>
         <div className="text-[10px] font-mono text-gray-800 uppercase tracking-[1em]">
-          VANGUARD_V16_STABLE
+          PORTFOLIO 2026
         </div>
         <div className="text-center md:text-right text-[10px] text-gray-600 font-mono uppercase tracking-widest">
-          &copy; 2026_MASTER_CORE_BUILD
+          &copy; 2026 ALL RIGHTS RESERVED
         </div>
       </div>
     </footer>

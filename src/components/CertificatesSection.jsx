@@ -46,9 +46,9 @@ const CertificatesSection = () => {
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="text-center mb-16">
           <h2 className="font-cyber text-3xl md:text-5xl font-bold text-theme-text mb-4">
-            Verified Access <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Badges</span>
+            Verified <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600">Certificates</span>
           </h2>
-          <p className="font-mono text-theme-muted text-sm">AUTHENTICATION_LEVEL: AUTHORIZED</p>
+          <p className="font-mono text-theme-muted text-sm">MY ACHIEVEMENTS & CERTIFICATES</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

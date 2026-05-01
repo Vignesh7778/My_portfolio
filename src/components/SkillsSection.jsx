@@ -30,7 +30,7 @@ const skillsData = [
 ];
 
 const radarData = {
-  labels: ['DEFENSE', 'ANALYSIS', 'FULL-STACK', 'LOGIC', 'AGILITY', 'INCIDENT'],
+  labels: ['PROBLEM SOLVING', 'ANALYSIS', 'FULL-STACK', 'LOGIC', 'AGILITY', 'TEAMWORK'],
   datasets: [{
     data: [98, 92, 90, 85, 95, 88],
     backgroundColor: 'rgba(0, 243, 255, 0.1)',
@@ -78,9 +78,9 @@ const SkillsSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           
           {/* Radar Visualization */}
-          <Tilt options={{ max: 5, scale: 1.01 }} className="hud-panel p-12 rounded-2xl">
+          <Tilt options={{ max: 5, scale: 1.01 }} className="hud-panel p-6 md:p-12 rounded-2xl">
             <h3 className="text-xs font-bold text-cyber-cyan uppercase tracking-[0.4em] mb-12 text-center font-mono">
-              NEURAL_LOAD_MATRIX
+              SKILL MATRIX
             </h3>
             <div className="h-[320px]">
               <Radar data={radarData} options={radarOptions} />
@@ -88,9 +88,9 @@ const SkillsSection = () => {
           </Tilt>
 
           {/* Saturation Progress */}
-          <Tilt options={{ max: 5, scale: 1.01 }} className="hud-panel p-12 rounded-2xl">
+          <Tilt options={{ max: 5, scale: 1.01 }} className="hud-panel p-6 md:p-12 rounded-2xl">
             <h3 className="text-xs font-bold text-cyber-purple uppercase tracking-[0.4em] mb-12 text-center font-mono">
-              TECH_STACK_SATURATION
+              TECHNICAL PROFICIENCY
             </h3>
             <div className="space-y-8">
               {skillsData.map((s, idx) => (

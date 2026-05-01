@@ -9,7 +9,7 @@ const ProjectsSection = () => {
         
         <div className="flex items-center gap-6 mb-16">
           <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tighter font-cyber">
-            PROJECT_MISSIONS
+            MY PROJECTS
           </h2>
           <div className="h-px flex-1 bg-white/5"></div>
         </div>
@@ -18,10 +18,10 @@ const ProjectsSection = () => {
           
           {/* CyberSec EduSuite */}
           <Tilt options={{ max: 10, scale: 1.02 }} className="hud-panel group laser-scan overflow-hidden">
-            <div className="p-10 relative z-10">
+            <div className="p-6 md:p-10 relative z-10">
               <div className="flex justify-between text-[9px] mb-8 font-bold uppercase font-mono">
-                <span className="text-cyber-purple border border-cyber-purple/50 px-2 py-0.5">OPS: SEC_SIM</span>
-                <span className="text-gray-600">status: stable</span>
+                <span className="text-cyber-purple border border-cyber-purple/50 px-2 py-0.5">PROJECT</span>
+                <span className="text-gray-600">status: completed</span>
               </div>
               
               <h3 className="font-cyber text-2xl font-black text-white mb-4 group-hover:text-cyber-cyan transition uppercase">
@@ -38,16 +38,16 @@ const ProjectsSection = () => {
               </div>
 
               <a href="https://www.linkedin.com/posts/vignesh-m-b4a5ba300_cybersecurity-ethicalhacking-linux-activity-7427705005240983553-rNXK" target="_blank" rel="noreferrer" className="btn-apex !text-[9px] !px-4 !py-2 inline-block">
-                Decrypt Source Node
+                View Project
               </a>
             </div>
           </Tilt>
 
           {/* Mehndi Creations */}
           <Tilt options={{ max: 10, scale: 1.02 }} className="hud-panel group laser-scan overflow-hidden">
-            <div className="p-10 relative z-10">
+            <div className="p-6 md:p-10 relative z-10">
               <div className="flex justify-between text-[9px] mb-8 font-bold uppercase font-mono">
-                <span className="text-cyber-cyan border border-cyber-cyan/50 px-2 py-0.5">OPS: WEB_ARCH</span>
+                <span className="text-cyber-cyan border border-cyber-cyan/50 px-2 py-0.5">PROJECT</span>
                 <span className="text-gray-600">status: live</span>
               </div>
               
@@ -65,7 +65,7 @@ const ProjectsSection = () => {
               </div>
 
               <a href="https://vignesh7778.github.io/Gomathi_mehendi_creations/" target="_blank" rel="noreferrer" className="btn-apex !text-[9px] !px-4 !py-2 inline-block">
-                Execute Live UI
+                View Live Site
               </a>
             </div>
           </Tilt>
