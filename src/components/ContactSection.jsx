@@ -54,7 +54,7 @@ const ContactSection = () => {
           </div>
 
           <form id="contact-form" className="space-y-6 font-mono" onSubmit={handleSubmit}>
-            <input type="hidden" name="access_key" value="706b9412-7844-4e0f-a60f-1f6f60dde661" />
+            <input type="hidden" name="access_key" value="b48523cf-4e77-4832-a0bb-00a7e5418205" />
             <input type="hidden" name="subject" value="Vignesh_OS: New Message Detected" />
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
